@@ -22,7 +22,7 @@ Given that the code-related tasks potentially contribute to the ability emergenc
 ## Support this project
 Your contributions and feedback support the open source ecosystem, improve the bot and provide datasets for future AI research. To participate you can:
 
-Submit Github issues, track issues and help create datasets that need improvement. https://github.com/FlagOpen/FlagInstruct
+Submit Github issues, track issues and help create datasets that need improvement. https://github.com/BAAI-Zlab/COIG
 
 ## Update: April 16, 2023
 - Release the five datasets of COIG.
