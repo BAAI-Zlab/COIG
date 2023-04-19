@@ -4,7 +4,7 @@ We propose the Chinese Open Instruction Generalist (**COIG**) project to maintai
 
 It is best to download the individual data files directly that you wish to use instead of using HF load_datasets. All datasets can be downloaded from: https://huggingface.co/datasets/BAAI/COIG/tree/main
 
-This model card is modified from [OIG](https://huggingface.co/datasets/laion/OIG).
+This dataset card is modified from [OIG](https://huggingface.co/datasets/laion/OIG).
 
 ### Translated Instructions (67,798)
 There are 67,798 instructions in total, which are composed of 1,616 task descriptions in [Super-NaturalInstructions](https://arxiv.org/abs/2204.07705) along with a single instance for each of them, 175 seed tasks in [Self-Instruct](https://arxiv.org/abs/2212.10560), and 66,007 instructions from [Unnatural Instructions](https://arxiv.org/abs/2212.09689). To reduce the cost and further improve the quality of the instruction corpus, we separate the translation procedure into three phases: automatic translation, manual verification, and manual correction. These strict quality verification procedures assure the reliability of the translated corpus.
