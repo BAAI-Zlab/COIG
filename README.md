@@ -6,8 +6,8 @@ It is best to download the individual data files directly that you wish to use i
 
 This dataset card is modified from [OIG](https://huggingface.co/datasets/laion/OIG).
 
-### Translated Instructions (67,798)
-There are 67,798 instructions in total, which are composed of 1,616 task descriptions in [Super-NaturalInstructions](https://arxiv.org/abs/2204.07705) along with a single instance for each of them, 175 seed tasks in [Self-Instruct](https://arxiv.org/abs/2212.10560), and 66,007 instructions from [Unnatural Instructions](https://arxiv.org/abs/2212.09689). To reduce the cost and further improve the quality of the instruction corpus, we separate the translation procedure into three phases: automatic translation, manual verification, and manual correction. These strict quality verification procedures assure the reliability of the translated corpus.
+### Translated Instructions (66,858)
+There are 66,858 instructions in total, which are composed of 1,616 task descriptions in [Super-NaturalInstructions](https://arxiv.org/abs/2204.07705) along with a single instance for each of them, 175 seed tasks in [Self-Instruct](https://arxiv.org/abs/2212.10560), and 66,007 instructions from [Unnatural Instructions](https://arxiv.org/abs/2212.09689). To reduce the cost and further improve the quality of the instruction corpus, we separate the translation procedure into three phases: automatic translation, manual verification, and manual correction. These strict quality verification procedures assure the reliability of the translated corpus.
 ### Exam Instructions (63,532)
 The Chinese National College Entrance Examination, Middle School Entrance Examinations, and Civil Servant Examination are the main Chinese commonsense tests. These exams contain various question formats and detailed analysis that can be used as the Chain-of-Thought (**CoT**) corpus. We extract six informative elements from original exam questions, including instruction, question context, question, answer, answer analysis, and coarse-grained subject. There are six main coarse-grained subjects: Chinese, English, Politics, Biology, History, and Geology. There are very few Math, Physics, and Chemistry questions in the corpus because these questions are often with complex symbols which are hard to annotate. For many choice questions, we recommend that the researchers utilize this corpus to further post-process it using prompts or post-process it to blank-filling questions to increase the instructions' diversity further.
 ### Human Value Alignment Instructions (34,471)
@@ -24,8 +24,9 @@ Your contributions and feedback support the open source ecosystem, improve the b
 
 Submit Github issues, track issues and help create datasets that need improvement. https://github.com/BAAI-Zlab/COIG
 
-## Update: April 16, 2023
-- Release the five datasets of COIG.
+## Update: May 26, 2023
+- v0.2: Update exam_instructions.jsonl and translated_instructions.jsonl.
+- v0.1: Release the five datasets of COIG.
 
 ## Disclaimer
 These datasets contain synthetic data and in some cases data that includes humans trying to get the language model to say toxic/offensive/trolling things. If you are concerned about the presence of this type of material in the dataset please make sure you carefully inspect each of the entries and filter appropriately. Our goal is for the model to be as helpful and non-toxic as possible and we are actively evaluating ways to reduce or eliminate undesirable content from the instruction tuning datasets.
