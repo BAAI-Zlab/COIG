@@ -24,8 +24,9 @@ Your contributions and feedback support the open source ecosystem, improve the b
 
 Submit Github issues, track issues and help create datasets that need improvement. https://github.com/BAAI-Zlab/COIG
 
-## Update: May 26, 2023
-- v0.2: Update exam_instructions.jsonl and translated_instructions.jsonl.
+## Update: May 27, 2023
+- v0.3: Update counterfactural_correction_multi_round_chat.tar.gz and make sure all round responses can be decoded as json.
+- v0.2: Update exam_instructions.jsonl, translated_instructions.jsonl and human_value_alignment_instructions_part2.json.
 - v0.1: Release the five datasets of COIG.
 
 ## Disclaimer
